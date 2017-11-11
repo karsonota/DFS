@@ -72,6 +72,7 @@ def prune(players):
 
 def pruneGroup(group):
     a = list(group)
+
     pruned = []
     pruneDict = {}
     for i in a:
