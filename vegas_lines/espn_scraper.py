@@ -36,7 +36,7 @@ soup = BeautifulSoup(page, 'html.parser')
 #find week
 header_line = soup.find(class_="h2")
 start_week = header_line.text.find('Week')
-week = header_line.text[start_week:35].encode('utf-8')
+week = header_line.text[start_week:36].encode('utf-8')
 
 #pull out useful rows
 table = soup.find(id="my-teams-table")
